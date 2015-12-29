@@ -10,7 +10,6 @@
 #import "JRMessageView.h"
 #import "TestViewController.h"
 
-
 #define SCREEN_W ([UIScreen mainScreen].bounds.size.width)
 #define SCREEN_H ([UIScreen mainScreen].bounds.size.height)
 
@@ -27,7 +26,6 @@
 	[super viewDidLoad];
 
 	self.view.backgroundColor = [UIColor whiteColor];
-
 	
 	self.messgae1 = [[JRMessageView alloc] initWithTitle:@"title"
 												subTitle:@"subtitle ssubtitle s btitle "
