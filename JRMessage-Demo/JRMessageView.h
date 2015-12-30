@@ -33,7 +33,6 @@ typedef NS_ENUM(NSInteger, JRMessagePosition) {
 @property (nonatomic, copy)		NSString			*subTitle;					// 描述
 @property (nonatomic, assign)	JRMessageViewType	type;						// 类型
 @property (nonatomic, strong)	UIViewController	*viewController;			// 控制器
-//@property (nonatomic, assign)	CGFloat				messageHeight;				// 高度
 @property (nonatomic, assign)	CGFloat				duration;					// 显示时间
 
 @property (nonatomic, assign)	CGFloat				messageTop;					//
@@ -58,7 +57,6 @@ typedef NS_ENUM(NSInteger, JRMessagePosition) {
 					 iconName:(NSString *)icon
 				  messageType:(JRMessageViewType)type
 			  messagePosition:(JRMessagePosition)position
-					  window:(UIWindow *)window
 					 duration:(CGFloat)duration;
 
 - (void)showMessageView;
