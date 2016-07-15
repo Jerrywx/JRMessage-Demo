@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		340BBC6A1C313287004859B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BBC691C313287004859B1 /* main.m */; };
 		340BBC6D1C313287004859B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BBC6C1C313287004859B1 /* AppDelegate.m */; };
-		340BBC701C313287004859B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BBC6F1C313287004859B1 /* ViewController.m */; };
 		340BBC731C313287004859B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340BBC711C313287004859B1 /* Main.storyboard */; };
 		340BBC751C313287004859B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340BBC741C313287004859B1 /* Assets.xcassets */; };
 		340BBC781C313287004859B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340BBC761C313287004859B1 /* LaunchScreen.storyboard */; };
-		340BBC831C3132F0004859B1 /* JRMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BBC821C3132F0004859B1 /* JRMessageView.m */; };
-		34131FF11C32340500C2F364 /* JRMessageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34131FF01C32340500C2F364 /* JRMessageManager.m */; };
-		34131FF41C328F5D00C2F364 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34131FF31C328F5D00C2F364 /* TestViewController.m */; };
+		C45A03C71D393C0800B6C8AD /* JRMessageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C45A03C01D393C0800B6C8AD /* JRMessageManager.m */; };
+		C45A03C81D393C0800B6C8AD /* JRMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C45A03C21D393C0800B6C8AD /* JRMessageView.m */; };
+		C45A03C91D393C0800B6C8AD /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45A03C41D393C0800B6C8AD /* TestViewController.m */; };
+		C45A03CA1D393C0800B6C8AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45A03C61D393C0800B6C8AD /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,18 +23,18 @@
 		340BBC691C313287004859B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		340BBC6B1C313287004859B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		340BBC6C1C313287004859B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		340BBC6E1C313287004859B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		340BBC6F1C313287004859B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		340BBC721C313287004859B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		340BBC741C313287004859B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		340BBC771C313287004859B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		340BBC791C313287004859B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		340BBC811C3132F0004859B1 /* JRMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRMessageView.h; sourceTree = "<group>"; };
-		340BBC821C3132F0004859B1 /* JRMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRMessageView.m; sourceTree = "<group>"; };
-		34131FEF1C32340500C2F364 /* JRMessageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRMessageManager.h; sourceTree = "<group>"; };
-		34131FF01C32340500C2F364 /* JRMessageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRMessageManager.m; sourceTree = "<group>"; };
-		34131FF21C328F5D00C2F364 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		34131FF31C328F5D00C2F364 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		C45A03BF1D393C0800B6C8AD /* JRMessageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRMessageManager.h; sourceTree = "<group>"; };
+		C45A03C01D393C0800B6C8AD /* JRMessageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRMessageManager.m; sourceTree = "<group>"; };
+		C45A03C11D393C0800B6C8AD /* JRMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRMessageView.h; sourceTree = "<group>"; };
+		C45A03C21D393C0800B6C8AD /* JRMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRMessageView.m; sourceTree = "<group>"; };
+		C45A03C31D393C0800B6C8AD /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		C45A03C41D393C0800B6C8AD /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		C45A03C51D393C0800B6C8AD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C45A03C61D393C0800B6C8AD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 		340BBC671C313287004859B1 /* JRMessage-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				340BBC801C3132E0004859B1 /* MyClasses */,
+				C45A03BE1D393C0800B6C8AD /* src */,
 				340BBC7F1C3132D5004859B1 /* Classes */,
 				340BBC681C313287004859B1 /* Supporting Files */,
 			);
@@ -91,23 +91,23 @@
 			children = (
 				340BBC6B1C313287004859B1 /* AppDelegate.h */,
 				340BBC6C1C313287004859B1 /* AppDelegate.m */,
-				340BBC6E1C313287004859B1 /* ViewController.h */,
-				340BBC6F1C313287004859B1 /* ViewController.m */,
-				34131FF21C328F5D00C2F364 /* TestViewController.h */,
-				34131FF31C328F5D00C2F364 /* TestViewController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
 		};
-		340BBC801C3132E0004859B1 /* MyClasses */ = {
+		C45A03BE1D393C0800B6C8AD /* src */ = {
 			isa = PBXGroup;
 			children = (
-				34131FEF1C32340500C2F364 /* JRMessageManager.h */,
-				34131FF01C32340500C2F364 /* JRMessageManager.m */,
-				340BBC811C3132F0004859B1 /* JRMessageView.h */,
-				340BBC821C3132F0004859B1 /* JRMessageView.m */,
+				C45A03BF1D393C0800B6C8AD /* JRMessageManager.h */,
+				C45A03C01D393C0800B6C8AD /* JRMessageManager.m */,
+				C45A03C11D393C0800B6C8AD /* JRMessageView.h */,
+				C45A03C21D393C0800B6C8AD /* JRMessageView.m */,
+				C45A03C31D393C0800B6C8AD /* TestViewController.h */,
+				C45A03C41D393C0800B6C8AD /* TestViewController.m */,
+				C45A03C51D393C0800B6C8AD /* ViewController.h */,
+				C45A03C61D393C0800B6C8AD /* ViewController.m */,
 			);
-			name = MyClasses;
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,12 +180,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34131FF41C328F5D00C2F364 /* TestViewController.m in Sources */,
-				340BBC701C313287004859B1 /* ViewController.m in Sources */,
+				C45A03CA1D393C0800B6C8AD /* ViewController.m in Sources */,
 				340BBC6D1C313287004859B1 /* AppDelegate.m in Sources */,
-				34131FF11C32340500C2F364 /* JRMessageManager.m in Sources */,
-				340BBC831C3132F0004859B1 /* JRMessageView.m in Sources */,
 				340BBC6A1C313287004859B1 /* main.m in Sources */,
+				C45A03C81D393C0800B6C8AD /* JRMessageView.m in Sources */,
+				C45A03C71D393C0800B6C8AD /* JRMessageManager.m in Sources */,
+				C45A03C91D393C0800B6C8AD /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
